@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B347C442AEBBCC800E0E6FA /* ChartXAxisFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B347C432AEBBCC800E0E6FA /* ChartXAxisFormatter.swift */; };
+		3B347C472AEBCF4900E0E6FA /* BarChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B347C462AEBCF4900E0E6FA /* BarChartDataModel.swift */; };
+		3B347C492AEBD12E00E0E6FA /* BarChartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B347C482AEBD12E00E0E6FA /* BarChartDataManager.swift */; };
+		3B3C58E42AEA93FA00E3BBE0 /* LineChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C58E32AEA93FA00E3BBE0 /* LineChartDataModel.swift */; };
+		3B3C58E92AEA9AF400E3BBE0 /* LineChartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3C58E82AEA9AF400E3BBE0 /* LineChartDataManager.swift */; };
+		3B5B34152AEB9CEE002EC295 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B34142AEB9CEE002EC295 /* ColorConstants.swift */; };
+		3B674D7D2AF120490070BC91 /* PieChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B674D7C2AF120490070BC91 /* PieChartDataModel.swift */; };
+		3B674D7F2AF124820070BC91 /* PieChartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B674D7E2AF124820070BC91 /* PieChartDataManager.swift */; };
+		3B6ACDB62AF0E87600D25F08 /* HeroHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6ACDB52AF0E87600D25F08 /* HeroHelper.swift */; };
+		3B889CED2AF21D81009214C5 /* ScatterChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889CEC2AF21D81009214C5 /* ScatterChartDataModel.swift */; };
+		3B889CEF2AF21E06009214C5 /* ScatterChartDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B889CEE2AF21E06009214C5 /* ScatterChartDataManager.swift */; };
+		3BA09CFE2AEA488E0088122D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09CFD2AEA488E0088122D /* AppDelegate.swift */; };
+		3BA09D002AEA488E0088122D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09CFF2AEA488E0088122D /* SceneDelegate.swift */; };
+		3BA09D022AEA488E0088122D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09D012AEA488E0088122D /* HomeViewController.swift */; };
+		3BA09D052AEA488E0088122D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA09D032AEA488E0088122D /* Main.storyboard */; };
+		3BA09D072AEA48960088122D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA09D062AEA48960088122D /* Assets.xcassets */; };
+		3BA09D0A2AEA48960088122D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA09D082AEA48960088122D /* LaunchScreen.storyboard */; };
+		3BA09D142AEA768B0088122D /* CustomLineChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09D132AEA768B0088122D /* CustomLineChartTableViewCell.swift */; };
+		3BA09D162AEA7E8F0088122D /* CustomBarChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09D152AEA7E8F0088122D /* CustomBarChartTableViewCell.swift */; };
+		3BA09D182AEA7EAC0088122D /* CustomScatterChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09D172AEA7EAC0088122D /* CustomScatterChartTableViewCell.swift */; };
+		3BA09D1A2AEA7EC00088122D /* CustomPieChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA09D192AEA7EC00088122D /* CustomPieChartTableViewCell.swift */; };
+		3BBD3DD92AEF78FA00F9AA22 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBD3DD82AEF78FA00F9AA22 /* StatisticsViewController.swift */; };
+		3BBD3DDB2AEF89A700F9AA22 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBD3DDA2AEF89A700F9AA22 /* CustomCollectionViewCell.swift */; };
+		7B808BF670F2A2B93A06BA96 /* Pods_FinanceTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2D381D5CB26EC9B07005B5 /* Pods_FinanceTracking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B347C432AEBBCC800E0E6FA /* ChartXAxisFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartXAxisFormatter.swift; sourceTree = "<group>"; };
+		3B347C462AEBCF4900E0E6FA /* BarChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDataModel.swift; sourceTree = "<group>"; };
+		3B347C482AEBD12E00E0E6FA /* BarChartDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDataManager.swift; sourceTree = "<group>"; };
+		3B3C58E32AEA93FA00E3BBE0 /* LineChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDataModel.swift; sourceTree = "<group>"; };
+		3B3C58E82AEA9AF400E3BBE0 /* LineChartDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDataManager.swift; sourceTree = "<group>"; };
+		3B5B34142AEB9CEE002EC295 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		3B674D7C2AF120490070BC91 /* PieChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDataModel.swift; sourceTree = "<group>"; };
+		3B674D7E2AF124820070BC91 /* PieChartDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartDataManager.swift; sourceTree = "<group>"; };
+		3B6ACDB52AF0E87600D25F08 /* HeroHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHelper.swift; sourceTree = "<group>"; };
+		3B889CEC2AF21D81009214C5 /* ScatterChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterChartDataModel.swift; sourceTree = "<group>"; };
+		3B889CEE2AF21E06009214C5 /* ScatterChartDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScatterChartDataManager.swift; sourceTree = "<group>"; };
+		3BA09CFA2AEA488E0088122D /* FinanceTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA09CFD2AEA488E0088122D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BA09CFF2AEA488E0088122D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3BA09D012AEA488E0088122D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3BA09D042AEA488E0088122D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA09D062AEA48960088122D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA09D092AEA48960088122D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA09D0B2AEA48960088122D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA09D132AEA768B0088122D /* CustomLineChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLineChartTableViewCell.swift; sourceTree = "<group>"; };
+		3BA09D152AEA7E8F0088122D /* CustomBarChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarChartTableViewCell.swift; sourceTree = "<group>"; };
+		3BA09D172AEA7EAC0088122D /* CustomScatterChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScatterChartTableViewCell.swift; sourceTree = "<group>"; };
+		3BA09D192AEA7EC00088122D /* CustomPieChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPieChartTableViewCell.swift; sourceTree = "<group>"; };
+		3BBD3DD82AEF78FA00F9AA22 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		3BBD3DDA2AEF89A700F9AA22 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EB032F845EA21A5AD5480DF /* Pods-FinanceTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceTracking.release.xcconfig"; path = "Target Support Files/Pods-FinanceTracking/Pods-FinanceTracking.release.xcconfig"; sourceTree = "<group>"; };
+		6E2D381D5CB26EC9B07005B5 /* Pods_FinanceTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinanceTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF08BE917D91157A2BB483A /* Pods-FinanceTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinanceTracking.debug.xcconfig"; path = "Target Support Files/Pods-FinanceTracking/Pods-FinanceTracking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA09CF72AEA488E0088122D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B808BF670F2A2B93A06BA96 /* Pods_FinanceTracking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B347C452AEBCF0A00E0E6FA /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				3B3C58E32AEA93FA00E3BBE0 /* LineChartDataModel.swift */,
+				3B3C58E82AEA9AF400E3BBE0 /* LineChartDataManager.swift */,
+			);
+			path = LineChart;
+			sourceTree = "<group>";
+		};
+		3B347C4A2AEBD13500E0E6FA /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				3B347C462AEBCF4900E0E6FA /* BarChartDataModel.swift */,
+				3B347C482AEBD12E00E0E6FA /* BarChartDataManager.swift */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		3B3C58E52AEA940300E3BBE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B347C452AEBCF0A00E0E6FA /* LineChart */,
+				3B347C4A2AEBD13500E0E6FA /* BarChart */,
+				3B674D802AF12EB00070BC91 /* PieChart */,
+				3B889CF02AF21EB4009214C5 /* ScatterChart */,
+				3B674D822AF12F240070BC91 /* AxisFormatter */,
+				3B674D812AF12F060070BC91 /* Color */,
+				3B674D832AF12F3C0070BC91 /* Animation */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B3C58E62AEA941100E3BBE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BBD3DDC2AEF94C200F9AA22 /* TableView */,
+				3BBD3DDD2AEF94D300F9AA22 /* CollectionView */,
+				3BA09D082AEA48960088122D /* LaunchScreen.storyboard */,
+				3BA09D032AEA488E0088122D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B3C58E72AEA942400E3BBE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BA09D012AEA488E0088122D /* HomeViewController.swift */,
+				3BBD3DD82AEF78FA00F9AA22 /* StatisticsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B674D802AF12EB00070BC91 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				3B674D7C2AF120490070BC91 /* PieChartDataModel.swift */,
+				3B674D7E2AF124820070BC91 /* PieChartDataManager.swift */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		3B674D812AF12F060070BC91 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				3B5B34142AEB9CEE002EC295 /* ColorConstants.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		3B674D822AF12F240070BC91 /* AxisFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				3B347C432AEBBCC800E0E6FA /* ChartXAxisFormatter.swift */,
+			);
+			path = AxisFormatter;
+			sourceTree = "<group>";
+		};
+		3B674D832AF12F3C0070BC91 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3B6ACDB52AF0E87600D25F08 /* HeroHelper.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		3B889CF02AF21EB4009214C5 /* ScatterChart */ = {
+			isa = PBXGroup;
+			children = (
+				3B889CEC2AF21D81009214C5 /* ScatterChartDataModel.swift */,
+				3B889CEE2AF21E06009214C5 /* ScatterChartDataManager.swift */,
+			);
+			path = ScatterChart;
+			sourceTree = "<group>";
+		};
+		3BA09CF12AEA488E0088122D = {
+			isa = PBXGroup;
+			children = (
+				3BA09CFC2AEA488E0088122D /* FinanceTracking */,
+				3BA09CFB2AEA488E0088122D /* Products */,
+				E7100221F5B90F802C3962DC /* Pods */,
+				F547E827063AF556694195A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA09CFB2AEA488E0088122D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA09CFA2AEA488E0088122D /* FinanceTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA09CFC2AEA488E0088122D /* FinanceTracking */ = {
+			isa = PBXGroup;
+			children = (
+				3BA09CFD2AEA488E0088122D /* AppDelegate.swift */,
+				3BA09CFF2AEA488E0088122D /* SceneDelegate.swift */,
+				3B3C58E52AEA940300E3BBE0 /* Model */,
+				3B3C58E62AEA941100E3BBE0 /* View */,
+				3B3C58E72AEA942400E3BBE0 /* Controller */,
+				3BA09D062AEA48960088122D /* Assets.xcassets */,
+				3BA09D0B2AEA48960088122D /* Info.plist */,
+			);
+			path = FinanceTracking;
+			sourceTree = "<group>";
+		};
+		3BBD3DDC2AEF94C200F9AA22 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3BA09D132AEA768B0088122D /* CustomLineChartTableViewCell.swift */,
+				3BA09D152AEA7E8F0088122D /* CustomBarChartTableViewCell.swift */,
+				3BA09D192AEA7EC00088122D /* CustomPieChartTableViewCell.swift */,
+				3BA09D172AEA7EAC0088122D /* CustomScatterChartTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3BBD3DDD2AEF94D300F9AA22 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3BBD3DDA2AEF89A700F9AA22 /* CustomCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		E7100221F5B90F802C3962DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADF08BE917D91157A2BB483A /* Pods-FinanceTracking.debug.xcconfig */,
+				4EB032F845EA21A5AD5480DF /* Pods-FinanceTracking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F547E827063AF556694195A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2D381D5CB26EC9B07005B5 /* Pods_FinanceTracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA09CF92AEA488E0088122D /* FinanceTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA09D0E2AEA48960088122D /* Build configuration list for PBXNativeTarget "FinanceTracking" */;
+			buildPhases = (
+				829F68EBB7FDC1325C2059DD /* [CP] Check Pods Manifest.lock */,
+				3BA09CF62AEA488E0088122D /* Sources */,
+				3BA09CF72AEA488E0088122D /* Frameworks */,
+				3BA09CF82AEA488E0088122D /* Resources */,
+				A6288598F24FC281134C9F4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinanceTracking;
+			productName = FinanceTracking;
+			productReference = 3BA09CFA2AEA488E0088122D /* FinanceTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA09CF22AEA488E0088122D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3BA09CF92AEA488E0088122D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3BA09CF52AEA488E0088122D /* Build configuration list for PBXProject "FinanceTracking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA09CF12AEA488E0088122D;
+			productRefGroup = 3BA09CFB2AEA488E0088122D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA09CF92AEA488E0088122D /* FinanceTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA09CF82AEA488E0088122D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA09D0A2AEA48960088122D /* LaunchScreen.storyboard in Resources */,
+				3BA09D072AEA48960088122D /* Assets.xcassets in Resources */,
+				3BA09D052AEA488E0088122D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		829F68EBB7FDC1325C2059DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FinanceTracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6288598F24FC281134C9F4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinanceTracking/Pods-FinanceTracking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FinanceTracking/Pods-FinanceTracking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FinanceTracking/Pods-FinanceTracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA09CF62AEA488E0088122D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3C58E42AEA93FA00E3BBE0 /* LineChartDataModel.swift in Sources */,
+				3BBD3DDB2AEF89A700F9AA22 /* CustomCollectionViewCell.swift in Sources */,
+				3B889CEF2AF21E06009214C5 /* ScatterChartDataManager.swift in Sources */,
+				3B674D7F2AF124820070BC91 /* PieChartDataManager.swift in Sources */,
+				3B889CED2AF21D81009214C5 /* ScatterChartDataModel.swift in Sources */,
+				3B3C58E92AEA9AF400E3BBE0 /* LineChartDataManager.swift in Sources */,
+				3B674D7D2AF120490070BC91 /* PieChartDataModel.swift in Sources */,
+				3BA09D162AEA7E8F0088122D /* CustomBarChartTableViewCell.swift in Sources */,
+				3B5B34152AEB9CEE002EC295 /* ColorConstants.swift in Sources */,
+				3BA09D022AEA488E0088122D /* HomeViewController.swift in Sources */,
+				3B347C442AEBBCC800E0E6FA /* ChartXAxisFormatter.swift in Sources */,
+				3BA09CFE2AEA488E0088122D /* AppDelegate.swift in Sources */,
+				3BA09D142AEA768B0088122D /* CustomLineChartTableViewCell.swift in Sources */,
+				3B347C472AEBCF4900E0E6FA /* BarChartDataModel.swift in Sources */,
+				3B347C492AEBD12E00E0E6FA /* BarChartDataManager.swift in Sources */,
+				3BA09D1A2AEA7EC00088122D /* CustomPieChartTableViewCell.swift in Sources */,
+				3BA09D182AEA7EAC0088122D /* CustomScatterChartTableViewCell.swift in Sources */,
+				3BA09D002AEA488E0088122D /* SceneDelegate.swift in Sources */,
+				3B6ACDB62AF0E87600D25F08 /* HeroHelper.swift in Sources */,
+				3BBD3DD92AEF78FA00F9AA22 /* StatisticsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BA09D032AEA488E0088122D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA09D042AEA488E0088122D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA09D082AEA48960088122D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA09D092AEA48960088122D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA09D0C2AEA48960088122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BA09D0D2AEA48960088122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA09D0F2AEA48960088122D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF08BE917D91157A2BB483A /* Pods-FinanceTracking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceTracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FinanceTracking.FinanceTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BA09D102AEA48960088122D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB032F845EA21A5AD5480DF /* Pods-FinanceTracking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3EGXVN72T4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinanceTracking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FinanceTracking.FinanceTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA09CF52AEA488E0088122D /* Build configuration list for PBXProject "FinanceTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA09D0C2AEA48960088122D /* Debug */,
+				3BA09D0D2AEA48960088122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA09D0E2AEA48960088122D /* Build configuration list for PBXNativeTarget "FinanceTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA09D0F2AEA48960088122D /* Debug */,
+				3BA09D102AEA48960088122D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA09CF22AEA488E0088122D /* Project object */;
+}

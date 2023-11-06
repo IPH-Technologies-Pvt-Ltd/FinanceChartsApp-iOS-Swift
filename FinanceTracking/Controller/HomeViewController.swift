@@ -98,6 +98,12 @@ class HomeViewController: UIViewController {
     }
     
     func setupUI() {
+        self.tabBarController!.tabBar.layer.shadowOffset = CGSize(width: 0, height: 0)
+        self.tabBarController!.tabBar.layer.shadowRadius = 4.0
+        self.tabBarController!.tabBar.layer.shadowColor = UIColor.gray.cgColor
+        self.tabBarController!.tabBar.layer.shadowOpacity = 0.6
+        self.tabBarController!.tabBar.layer.borderWidth = 0.40
+        self.tabBarController!.tabBar.layer.borderColor = UIColor.tabBarBorder().cgColor
         allTimeButton.titleLabel?.font = UIFont.systemFont(ofSize: 10, weight: .medium)
         thisYearButton.titleLabel?.font = UIFont.systemFont(ofSize: 10, weight: .medium)
         thisWeekButton.titleLabel?.font = UIFont.systemFont(ofSize: 10, weight: .medium)

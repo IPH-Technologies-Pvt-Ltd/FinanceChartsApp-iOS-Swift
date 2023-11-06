@@ -104,7 +104,7 @@
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWw-cp-2tI">
                                                                 <rect key="frame" x="196" y="0.0" width="90" height="35"/>
-                                                                <color key="backgroundColor" red="0.40000000000000002" green="0.88627450980392153" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <color key="backgroundColor" red="0.96470588235294119" green="0.69019607843137254" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <color key="tintColor" systemColor="labelColor"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="This week">
@@ -271,10 +271,10 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="365" height="201"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
-                                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ug4-3c-D8m">
+                                                                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ug4-3c-D8m">
                                                                     <rect key="frame" x="5" y="5" width="355" height="191"/>
                                                                     <subviews>
-                                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-aF-tSO" customClass="ScatterChartView" customModule="DGCharts">
+                                                                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-aF-tSO" customClass="ScatterChartView" customModule="DGCharts">
                                                                             <rect key="frame" x="1" y="1" width="353" height="189"/>
                                                                             <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                                         </view>
@@ -541,7 +541,7 @@
                                                                             <constraint firstAttribute="width" constant="355" id="3CW-Hz-wGB"/>
                                                                         </constraints>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                                        <color key="textColor" red="0.40000000000000002" green="0.8862745098" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <color key="textColor" red="0.96470588235294119" green="0.69019607843137254" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="qwJ-oF-iWW">
@@ -728,7 +728,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wbV-YV-Xie" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="add" id="tnp-7z-T2i">
-                        <inset key="imageInsets" minX="0.0" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageInsets" minX="0.0" minY="-15" maxX="0.0" maxY="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="I2X-Rf-szE">

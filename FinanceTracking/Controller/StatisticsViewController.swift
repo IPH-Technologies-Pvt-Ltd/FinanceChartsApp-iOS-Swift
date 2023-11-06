@@ -16,6 +16,7 @@ class StatisticsViewController: UIViewController {
     @IBOutlet weak var billableDetailsView: UIView!
     @IBOutlet weak var nonBillableDetailsView: UIView!
     
+    let vc = HomeViewController()
     var indexPassed: Int = 0
     var lineChartDataManager = LineChartDataManager()
     var lineChartDataReceived: LineChartData?
@@ -106,7 +107,7 @@ class StatisticsViewController: UIViewController {
 extension StatisticsViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return vc.cellIdentifiers.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {

@@ -9,7 +9,7 @@ import UIKit
 
 extension UIColor {
     static func chartSet1Color() -> UIColor{
-        return UIColor(red: 103/255, green: 229/255, blue: 190/255, alpha: 1)
+        return UIColor(red: 246/255, green: 176/255, blue: 72/255, alpha: 1)
     }
 
     static func chartSet2Color() -> UIColor{
@@ -22,5 +22,9 @@ extension UIColor {
     
     static func cellBackgroundColor() -> UIColor{
         return UIColor(red: 245/255, green: 245/255, blue: 245/255, alpha: 1)
+    }
+    
+    static func tabBarBorder() -> UIColor{
+        return UIColor(red: 80/255, green: 80/255, blue: 80/255, alpha: 0.2)
     }
 }

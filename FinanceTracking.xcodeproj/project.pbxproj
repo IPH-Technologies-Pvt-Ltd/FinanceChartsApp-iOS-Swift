@@ -75,7 +75,6 @@
 		3B347C452AEBCF0A00E0E6FA /* LineChart */ = {
 			isa = PBXGroup;
 			children = (
-				3B3C58E32AEA93FA00E3BBE0 /* ChartDataModel.swift */,
 				3B3C58E82AEA9AF400E3BBE0 /* LineChartDataManager.swift */,
 			);
 			path = LineChart;
@@ -92,6 +91,7 @@
 		3B3C58E52AEA940300E3BBE0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3B3C58E32AEA93FA00E3BBE0 /* ChartDataModel.swift */,
 				3B347C452AEBCF0A00E0E6FA /* LineChart */,
 				3B347C4A2AEBD13500E0E6FA /* BarChart */,
 				3B674D802AF12EB00070BC91 /* PieChart */,

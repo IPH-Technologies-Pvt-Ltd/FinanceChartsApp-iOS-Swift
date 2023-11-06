@@ -21,7 +21,9 @@ Users can gain valuable insights into their financial data through intuitive cha
 
 __Here is a quick preview of the app__ <br />
 
-https://github.com/IPH-Technologies-Pvt-Ltd/FinanceChartsApp-iOS-Swift/assets/130062285/17f8ac26-6594-4306-8a92-e7cf54d78485
+https://github.com/IPH-Technologies-Pvt-Ltd/FinanceChartsApp-iOS-Swift/assets/130062285/ddc8d18a-ae3b-4e7b-bddd-c3b3712f0896
+
+
 
 ## Features
 - Compare two financial datasets side by side.

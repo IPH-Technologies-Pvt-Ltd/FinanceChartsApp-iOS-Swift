@@ -15,7 +15,7 @@ struct LineChartDataManager {
     var xArray: [Double] = []
     var counter: Int = 0
 
-    mutating func setData(lineChartDataArray: [LineChartDataModel]) {
+    mutating func setData(lineChartDataArray: [ChartDataModel]) {
         counter += 1
         let count = lineChartDataArray.count
         print(count)

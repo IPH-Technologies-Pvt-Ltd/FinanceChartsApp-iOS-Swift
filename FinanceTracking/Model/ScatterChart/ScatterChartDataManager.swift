@@ -16,7 +16,7 @@ struct ScatterChartDataManager {
     var counter: Int = 0
     var groupedDataSet : [ScatterChartDataSet] = [ScatterChartDataSet]()
     
-    mutating func setData(scatterChartDataArray: [ScatterChartDataModel]) {
+    mutating func setData(scatterChartDataArray: [ChartDataModel]) {
         counter += 1
         let count = scatterChartDataArray.count
         print(count)

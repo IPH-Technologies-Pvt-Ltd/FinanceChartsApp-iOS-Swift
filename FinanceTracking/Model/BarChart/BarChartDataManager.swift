@@ -16,7 +16,7 @@ struct BarChartDataManager {
     var counter: Int = 0
     var groupedDataSet : [BarChartDataSet] = [BarChartDataSet]()
     
-    mutating func setData(barChartDataArray: [BarChartDataModel]) {
+    mutating func setData(barChartDataArray: [ChartDataModel]) {
         counter += 1
         let count = barChartDataArray.count
         print(count)

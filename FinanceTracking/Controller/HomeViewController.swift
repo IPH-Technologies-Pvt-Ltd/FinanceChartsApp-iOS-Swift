@@ -19,13 +19,13 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let cellIdentifiers = ["lineChartCell", "barChartCell", "pieChartCell", "scatterChartCell"]
-    var lineChartDataArray = [LineChartDataModel]()
+    var lineChartDataArray = [ChartDataModel]()
     var lineChartDataManager = LineChartDataManager()
-    var barChartDataArray = [BarChartDataModel]()
+    var barChartDataArray = [ChartDataModel]()
     var barChartDataManager = BarChartDataManager()
     var pieChartDataArray = [PieChartDataModel]()
     var pieChartDataManager = PieChartDataManager()
-    var scatterChartDataArray = [ScatterChartDataModel]()
+    var scatterChartDataArray = [ChartDataModel]()
     var scatterChartDataManager = ScatterChartDataManager()
     let groupSpace = 0.3
     let barSpace = 0.05
@@ -46,19 +46,19 @@ class HomeViewController: UIViewController {
         tableView.dataSource = self
         setupUI()
         //Line Chart
-        lineChartDataArray = LineChartDataModel.defaultLineChartFirstSetData()
+        lineChartDataArray = ChartDataModel.defaultChartFirstSetData()
         lineChartDataManager.setData(lineChartDataArray: lineChartDataArray)
         lineChartDataArray.removeAll()
         lineChartDataManager.xArray.removeAll()
-        lineChartDataArray = LineChartDataModel.defaultLineChartSecondSetData()
+        lineChartDataArray = ChartDataModel.defaultChartSecondSetData()
         lineChartDataManager.setData(lineChartDataArray: lineChartDataArray)
         lineChartDataArray.removeAll()
         //Bar chart
-        barChartDataArray = BarChartDataModel.defaultBarChartFirstSetData()
+        barChartDataArray = ChartDataModel.defaultChartFirstSetData()
         barChartDataManager.setData(barChartDataArray: barChartDataArray)
         barChartDataArray.removeAll()
         barChartDataManager.xArray.removeAll()
-        barChartDataArray = BarChartDataModel.defaultBarChartSecondSetData()
+        barChartDataArray = ChartDataModel.defaultChartSecondSetData()
         barChartDataManager.setData(barChartDataArray: barChartDataArray)
         barChartDataArray.removeAll()
         //Pie chart
@@ -76,11 +76,11 @@ class HomeViewController: UIViewController {
             self.i += 1
         }
         //Scatter chart
-        scatterChartDataArray = ScatterChartDataModel.defaultScatterChartFirstSetData()
+        scatterChartDataArray = ChartDataModel.defaultChartFirstSetData()
         scatterChartDataManager.setData(scatterChartDataArray: scatterChartDataArray)
         scatterChartDataArray.removeAll()
         scatterChartDataManager.xArray.removeAll()
-        scatterChartDataArray = ScatterChartDataModel.defaultScatterChartSecondSetData()
+        scatterChartDataArray = ChartDataModel.defaultChartSecondSetData()
         scatterChartDataManager.setData(scatterChartDataArray: scatterChartDataArray)
         scatterChartDataArray.removeAll()
     }
